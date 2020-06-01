@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    background-color: #F3F3F3;
+    font-size: 1.2rem;
+}
+
+div {
+    /* border: 1px solid black; */
+    padding: 0.2rem;
+}
+
+.logo {
+    max-width: 280px;
+}
+
+.books-list-container {
+    display: flex;
+    flex-flow: column;
+}
+
+.book-table-titles {
+    display: flex;
+    flex-flow: row;
+    font-weight: bold;
+}
+
+.book-entry {
+    display: flex;
+    flex-flow: row;
+    max-width: 600px;
+    background-color: white;
+    border: 0.0625rem solid #CDCDCD;
+    margin: 0px 0px 40px;
+}
+
+.book-image {
+    flex: 20vw;
+    align-self: center;
+}
+
+.book-details {
+    flex: 40vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.book-price-actions {
+    flex: 15vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-left: 20px;
+    align-items: flex-start;
+}
+
+.book-full-details {
+    position: fixed;
+    float: right;
+    display: flex;
+    flex-flow: column;
+    min-width: 400px;
+    max-width: 400px;
+    background-color: white;
+    border: 0.0625rem solid #CDCDCD;
+    /* margin: 0px 0px 40px; */
+}
+
+.book-details .book-title {
+    margin: 0px 0px 10px;
+}
+
+.book-details .author {
+    margin: 0px 0px 10px;
+}
+
+.book-details .isbn {
+    font-size: .66rem;
+}
+
+.book-details .short-desc {
+    text-align: justify;
+    margin: 10px 0px 20px;
+}
+
+.book-price-actions .price {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #334455;
+}
+

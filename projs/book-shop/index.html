@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="onInit()">
+
+    <div class="header">
+        <img class="logo" src="img/logo.svg">
+        <!-- <h1>Books</h1> -->
+        <p><button onclick="onAddBook()">Create a new book</button></p>
+    </div>
+
+    <!-- <div class="book-full-details">
+        <div class="book-header">
+            <div class="book-image"><img src="img/book${book.image}.png"></div>
+
+            <div class="book-details">
+                <h4 class="book-title">${book.title}</h4>
+                <h5 class="author">${book.author}</h5>
+                <h9 class="isbn">${book.isbn}</h9>
+            </div>
+        </div>
+        <div class="book-description">
+            <p>${book.desc}</p>
+        </div>        
+    </div> -->
+
+    <div class="books-list-container">
+        <!-- <div class="book-entry">
+            <div class="book-image"><img src="img/book1.png"></div>
+            <div class="book-details">
+                <h4>Unselfish Departure</h4>
+                <h5>Virginia Woolf</h5>
+                <h9 class="isbn">#1606154983021</h9>
+                <p class="short-desc">a different story it and and bit by... <a href="">read more</a></p>
+            </div>
+            <div class="book-price">$18.45</div>
+            <div class="book-actions"><button>Details</button><br><button>Update</button><br><button>Delete</button></div>
+        </section> -->
+    </div>
+
+
+    <script src="js/utils.service.js"></script>
+    <script src="js/storage.service.js"></script>
+    <script src="js/book-shop.service.js"></script>
+    <script src="js/book-shop.controller.js"></script>
+</body>
+
+</html>
